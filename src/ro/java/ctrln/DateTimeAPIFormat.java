@@ -1,8 +1,8 @@
 package ro.java.ctrln;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
+
 
 public class DateTimeAPIFormat {
     public static void main(String[] args) {
