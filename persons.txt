@@ -1,0 +1,5 @@
+John|Doe|25|Inginer
+Maria|Bart||Manager
+Florin|Istrate|42|
+Carmen|Seres|0|Contabil
+Luana|||Pilot

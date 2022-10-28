@@ -1,0 +1,32 @@
+Scrie un program Java care sa simulezi scrierea intr-un fisier de logare. Acest program trebuie sa indeplineasca
+urmatoarele capabilitati.
+
+1.Declara o calsa care reprezinta o persoana, urmatoarele proprietati:
+
+    a.nume
+    b.prenume
+    c.vârsta
+    d.ocupatia
+
+2.Citeste dintr-un fisier datele pentru 5 persoane mapeaza intr-un vector de persoane. Olinie din fisier
+are un matoarul format:
+
+    John|Doe|25|Inginer
+    Maria|Bart||Manager
+    Carmen|Seres|0|Contabil
+    Luana|||Pilot
+
+3.Parcurge vectorul de persoane si pentru fiecare persoana fara virsta arunca o exceptie checked PersonException,
+pe care o declara de asemenea in proiect. Programul trebuie sa trateze fiecare persoana in parte care nu are ocupatie
+si sa scrie intr-un fisier de log acest lucru.
+
+4.Defineste un "enum" care sa simuleze 3 niveluri de severitate: info, warn si error.
+
+5.Regulile de scriere in fisierul de log sunt urmatoarele.
+    a.Daca o persoana are toate informatiile incarcate in fisier,va fi trecuta la nivelul info in log.
+    b.Daca unei persoana ii lipseste ocupatia atunci va fi trecuta la nivelul warn.
+    c.Daca unei persoane ii lipseate virsta atunci va fi trecuta la nivelul error.
+    d.O persoana se poate afla doar dintr-una din cele 3 situatii. Ulterior se poate trata programul pentru a trata
+    aceste situatii in care se poate afla o persoana
+
+
